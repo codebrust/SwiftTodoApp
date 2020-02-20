@@ -16,6 +16,7 @@
 		299CCB8C23FE971F00A1FD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CCB8A23FE971F00A1FD4A /* LaunchScreen.storyboard */; };
 		299CCB9723FE971F00A1FD4A /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCB9623FE971F00A1FD4A /* TodoAppTests.swift */; };
 		299CCBA223FE971F00A1FD4A /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCBA123FE971F00A1FD4A /* TodoAppUITests.swift */; };
+		299CCBB023FE98BD00A1FD4A /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCBAF23FE98BD00A1FD4A /* TodoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		299CCB9D23FE971F00A1FD4A /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299CCBA123FE971F00A1FD4A /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		299CCBA323FE971F00A1FD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299CCBAF23FE98BD00A1FD4A /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				299CCB7C23FE971E00A1FD4A /* AppDelegate.swift */,
 				299CCB7E23FE971E00A1FD4A /* SceneDelegate.swift */,
 				299CCB8323FE971E00A1FD4A /* ContentView.swift */,
+				299CCBAF23FE98BD00A1FD4A /* TodoItem.swift */,
 				299CCB8523FE971F00A1FD4A /* Assets.xcassets */,
 				299CCB8A23FE971F00A1FD4A /* LaunchScreen.storyboard */,
 				299CCB8D23FE971F00A1FD4A /* Info.plist */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299CCBB023FE98BD00A1FD4A /* TodoItem.swift in Sources */,
 				299CCB7D23FE971E00A1FD4A /* AppDelegate.swift in Sources */,
 				299CCB8223FE971E00A1FD4A /* TodoApp.xcdatamodeld in Sources */,
 				299CCB8423FE971E00A1FD4A /* ContentView.swift in Sources */,
